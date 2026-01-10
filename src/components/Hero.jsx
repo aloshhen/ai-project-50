@@ -3,7 +3,7 @@ import { ArrowRight, ChevronDown } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden py-24 md:py-32 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
+    <section className="relative overflow-hidden py-32 md:py-48 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
       <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "url('https://source.unsplash.com/1600x900/?phone,accessories')", backgroundSize: 'cover', backgroundPosition: 'center' }} />
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <motion.div

@@ -9,7 +9,7 @@ export default function Navigation() {
       animate={{ opacity: 1, y: 0 }}
       className={cn(
         'fixed top-0 z-50 w-full',
-        'backdrop-blur-xl bg-white/80 border-b border-slate-200/50',
+        'backdrop-blur-xl bg-black/80 border-b border-slate-800/50',
         'px-6 py-4'
       )}
     >
@@ -18,23 +18,23 @@ export default function Navigation() {
           whileHover={{ scale: 1.05 }}
           className="flex items-center gap-2"
         >
-          <ShoppingBag className="w-6 h-6 text-purple-600" />
-          <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <ShoppingBag className="w-6 h-6 text-purple-400" />
+          <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Aura
           </span>
         </motion.div>
         <div className="hidden md:flex items-center gap-8">
-          <a href="#features" className="text-slate-600 hover:text-slate-900 transition-colors">
+          <a href="#features" className="text-slate-400 hover:text-slate-100 transition-colors">
             Products
           </a>
-          <a href="#about" className="text-slate-600 hover:text-slate-900 transition-colors">
+          <a href="#about" className="text-slate-400 hover:text-slate-100 transition-colors">
             About
           </a>
-          <a href="#cta" className="text-slate-600 hover:text-slate-900 transition-colors">
+          <a href="#cta" className="text-slate-400 hover:text-slate-100 transition-colors">
             Contact
           </a>
         </div>
-        <button className="px-4 py-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg shadow-blue-500/20 hover:shadow-xl transition-all">
+        <button className="px-4 py-2 rounded-full bg-gradient-to-r from-blue-400 to-purple-400 text-black shadow-lg shadow-blue-400/20 hover:shadow-xl transition-all">
           Shop Now
         </button>
       </div>
